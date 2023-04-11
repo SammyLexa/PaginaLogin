@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); /*Titulos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); /*paragrafo*/
+
+:root{
+    --cor-de-fundo: #9C7FF8;
+    --cor-principal: #F54B86;
+    --cor-texto: #FFFFFF;
+    --cor-destaque: #65DAC9;
+
+    --fonte-principal: 'Montserrat', sans-serif; /*paragrafo*/
+
+    --peso-fonte: 700;
+}

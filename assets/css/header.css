@@ -1,0 +1,62 @@
+.cabecalho {
+    align-items: center;
+    background: var(--cor-principal);
+    display: flex;
+    border-bottom: black 2px solid;
+   justify-content: space-between;
+}
+
+@media screen and (min-width: 0) {
+    .cabecalho {
+        justify-content: center;
+        padding: 0 1rem;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        justify-content: space-between;
+        padding: 0 5rem;
+
+    }
+}
+
+.menu{
+    color:aliceblue
+}
+
+.menu__lista {
+    display: flex; 
+    gap: 1rem;
+}
+
+.menu__item { 
+    color: var();
+}
+
+.menu__item:last-child .menu__link{
+    margin-right: 0;
+}
+
+.menu__link { /*estilização das palavras do menu, retirando a cor padrão azul*/
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    font-weight: var(--peso-fonte);
+}
+
+.menu__link.ativo {
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+
+.menu__link:hover {  /*Isso fará com que os links sejam sublinhados sempre que o mouse passar sobre eles.*/
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+
+
+    
+}

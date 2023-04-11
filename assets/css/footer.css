@@ -1,0 +1,28 @@
+.rodape{
+  background-color: var(--cor-principal);
+  font-family: var(--fonte-principal);
+  color: var(--cor-texto);
+  font-weight: var(--peso-fonte);
+  border-top: 2px solid black;
+}
+
+p{
+  
+}
+
+.redes-sociais{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:20px;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+
+.navegacao__icon {
+    margin-top: 15px;
+    width: 30px ;
+    height: 30px;
+}
